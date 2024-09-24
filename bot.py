@@ -35,22 +35,22 @@ def preencher_sistema(dados, coordenadas, coordenada_inicial, coordenada_final):
         
         time.sleep(0.5)
 
-arquivo_excel = r'C:\project\bot-antigenos_sanguineos\Tableofbloodgroupsystems.xlsx'
+arquivo_excel = r'C:\project\bot-table-of-blood-group-systems\Tableofbloodgroupsystems.xlsx'
 
 coordenadas = [
-    (429, 153),  
-    (422, 219), 
-    (425, 287),  
-    (426, 354),  
-    (422, 426), 
-    (423, 491), 
-    (423, 561),  
-    (421, 623)   
+    (610,202),  
+    (617,303), 
+    (609,391),  
+    (600,490),  
+    (613,582), 
+    (597,676), 
+    (598,765),  
+    (607,856)   
 ]
 
-coordenada_inicial = (41, 177)
+coordenada_inicial = (87, 221)
 
-coordenada_final = (632, 672)
+coordenada_final = (885, 922)
 
 dados = ler_dados_excel(arquivo_excel)
 
